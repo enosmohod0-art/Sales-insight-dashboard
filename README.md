@@ -4,14 +4,14 @@
 
 This project presents an interactive Power BI dashboard built to analyze revenue and profitability performance across multiple regional markets for a computer hardware business.
 
-The objective was to identify revenue concentration, margin inefficiencies, customer dependency risks, and regional performance variations using structured data modeling and DAX measures.
+The objective was to identify revenue concentration, margin inefficiencies, and customer dependency risks using structured data modeling and DAX measures.
 
 ---
 
 ## 🗂 Dataset Description
 
 - Multi-city computer hardware sales dataset  
-- ~₹984.87M total revenue analyzed  
+- ₹984.87M total revenue analyzed  
 - 2M total quantity sold  
 - Time period: 2017–2020  
 - Market-level and customer-level performance tracking  
@@ -20,11 +20,11 @@ The objective was to identify revenue concentration, margin inefficiencies, cust
 
 ## 🛠 Tools & Technologies
 
-- Power BI
-- DAX (SUM, CALCULATE, Profit Margin %, Aggregations)
-- Star Schema Data Modeling
-- Interactive slicers (Year, Month)
-- KPI Cards & Dynamic Visuals
+- Power BI  
+- DAX (SUM, CALCULATE, Profit Margin %)  
+- Star Schema Data Modeling  
+- Interactive slicers (Year, Month)  
+- KPI Cards & Dynamic Visuals  
 
 ---
 
@@ -50,48 +50,42 @@ This ensured optimized filtering and accurate KPI computation.
 
 ## 🔎 Key Business Insights
 
-### 1️⃣ Revenue Concentration Risk
+### 1️⃣ Revenue Concentration
 
 - Delhi NCR contributes ₹519.7M (~52.8% of total revenue)
-- High dependency on a single region
+- High dependency on a single market
 - Bhubaneswar and Bengaluru contribute <1% revenue
 
 ---
 
-### 2️⃣ Margin Imbalance Across Markets
+### 2️⃣ Margin Imbalance
 
 - Delhi NCR → ~2.3% margin (high revenue, low efficiency)
-- Surat → 4.9% margin (high margin efficiency)
+- Surat → 4.9% margin (strong margin performance)
 - Bengaluru → -20.8% margin (loss-making region)
 
-Indicates pricing or cost control inefficiencies in high-revenue markets.
+Indicates pricing or cost optimization opportunities.
 
 ---
 
 ### 3️⃣ Customer Revenue Dependency
 
-- Electricalsara Stores contributes ₹413.33M (~42% of revenue)
-- Revenue heavily concentrated among top customers
-- Business risk if major client churn occurs
+- Electricalsara Stores contributes ~42% of total revenue
+- Heavy reliance on top customers increases business risk
 
 ---
 
-### 4️⃣ Revenue Trend & Seasonality
+## 📸 Dashboard Visual Outputs
 
-- Revenue fluctuates across years
-- Visible variation across months
-- Performance softening toward 2020
+### Overview Page
+
+![Overview](screenshots/overview.png)
 
 ---
 
-## 📈 Dashboard Features
+### Profitability Analysis Page
 
-- Market-wise revenue & quantity breakdown
-- Profit margin % by market
-- Customer-wise revenue contribution
-- Time-series revenue trend
-- Dynamic Year and Month slicers
-- Customer profitability table
+![Profitability](screenshots/profitability.png)
 
 ---
 
@@ -104,7 +98,7 @@ Sales-AdHoc-Analysis-PowerBI
 │   └── Sales_AdHoc_Dashboard.pbix
 ├── screenshots/
 │   ├── overview.png
-│   ├── profitability.png
+│   └── profitability.png
 └── README.md
 ```
 
@@ -114,11 +108,11 @@ Sales-AdHoc-Analysis-PowerBI
 
 This dashboard demonstrates:
 
-- Strong business KPI modeling
+- Strong KPI modeling
 - Profitability analysis capability
 - Revenue concentration risk identification
-- Data-driven pricing optimization insights
-- Practical Power BI dashboard development
+- Practical business insight generation
+- Structured Power BI dashboard development
 
 ---
 
@@ -126,4 +120,4 @@ This dashboard demonstrates:
 
 **Enos Mohod**  
 Aspiring Data Analyst | Power BI | SQL | Python  
-Turning raw sales data into actionable insights
+Turning sales data into actionable business insights
