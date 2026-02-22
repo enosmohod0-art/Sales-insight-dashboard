@@ -105,7 +105,6 @@ Sales-AdHoc-Analysis-PowerBI
 ├── screenshots/
 │   ├── overview.png
 │   ├── profitability.png
-│   └── customer_analysis.png
 └── README.md
 ```
 
